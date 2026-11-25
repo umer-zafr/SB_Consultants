@@ -1,0 +1,10 @@
+# key.properties template for release signing
+# Store this file in the android/ directory as 'key.properties' (do NOT commit to git)
+#
+# Generate keystore command:
+# keytool -genkey -v -keystore C:/Users/umerz/upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+storePassword=your_keystore_password
+keyPassword=your_key_password
+keyAlias=upload
+storeFile=C:/Users/umerz/upload-keystore.jks
